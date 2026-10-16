@@ -25,10 +25,10 @@ Full-stack engineer at **Service Next** (Barcelona area). I build production pro
 
 ## Stack
 
-**Backend:** Python · FastAPI · asyncpg · Node.js · PostgreSQL · REST APIs · Docker
-**Frontend:** TypeScript · React · Next.js · Vue · Tailwind · Three.js
-**AI:** LLM agents · LangChain · Langfuse · local models with Ollama
-**Gamedev:** Unity · Unreal · Godot · C#
+- **Backend:** Python · FastAPI · asyncpg · Node.js · PostgreSQL · REST APIs · Docker
+- **Frontend:** TypeScript · React · Next.js · Vue · Tailwind · Three.js
+- **AI:** LLM agents · LangChain · Langfuse · local models with Ollama
+- **Gamedev:** Unity · Unreal · Godot · C#
 
 ## Contact
 
