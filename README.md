@@ -8,7 +8,8 @@ Full-stack engineer at **Service Next** (Barcelona area). I build production pro
 
 - **At work** — a Python 3.12 / FastAPI service that serves several LLM agents (LangChain, traced
   with Langfuse) plus the REST API behind two Next.js 16 / React 19 apps: an internal ticketing
-  platform for technical consultants and a customer-facing portal. Postgres, async workers, Docker.
+  platform for technical consultants and a customer-facing portal, plus the tools our ElevenLabs
+  voice agent calls when workshops phone in. Postgres, async workers, Docker.
 - **On my own** — products that ship to real users, built with the same rigour: tests, CI, a live demo.
 
 ## Selected projects
