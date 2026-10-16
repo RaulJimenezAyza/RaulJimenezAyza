@@ -15,7 +15,7 @@ Full-stack engineer at **Service Next** (Barcelona area). I build production pro
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[Reloda](https://reloda.es)** | SaaS that tracks returnable packaging from order to return for glass factories: warehouse in 2D/3D, QR scanning, route planning, offline-first delivery with signatures, client portal. Deployed for a glass manufacturer. | React 19, TypeScript, Vite, Firebase, Three.js, Vitest, Playwright |
+| **[Reloda](https://reloda.es)** | SaaS that tracks returnable packaging from order to return for glass factories: warehouse in 2D/3D, QR scanning, route planning, offline-first delivery with signatures, client portal. Deployed for a glass manufacturer. [Case study →](https://github.com/RaulJimenezAyza/reloda-case-study) | React 19, TypeScript, Vite, Firebase, Three.js, Vitest, Playwright |
 | **[Momentum edge study](https://github.com/RaulJimenezAyza/momentum-edge-study)** | Does a viral crypto trading strategy have an edge? A full async trading system, measured honestly: walk-forward tests over 150 days and 14k trades, random-entry controls, and eleven "improvements" that all died out of sample. | Python, asyncio (aiohttp, websockets), NumPy, scikit-learn |
 | **[La Isla del Gato](https://rauljimenezayza.github.io/portfolio-interactivo/)** | My portfolio as a playable 3D game: physics, procedural audio, four arcade machines. | Next.js, React Three Fiber, cannon-es |
 | **[Evolution of Intelligent Agents](https://github.com/RaulJimenezAyza/Evolution-of-intelligent-agents)** | BSc thesis: agents with heritable traits evolve under scarce resources, with live metrics streamed over UDP. | C#, Unity, Python |
