@@ -11,11 +11,14 @@ Full-stack engineer at **Service Next** (Barcelona area). I build production pro
   platform for technical consultants and a customer-facing portal, plus the tools our ElevenLabs
   voice agent calls when workshops phone in. Postgres, async workers, Docker.
 - **On my own** — products that ship to real users, built with the same rigour: tests, CI, a live demo.
+  Two of them are live public services for Barcelona and Spain that run on free tiers.
 
 ## Selected projects
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[Rodalies al minuto](https://rodalies.reloda.es)** | Live delays for every Barcelona commuter train: when you'll actually arrive, a stop-by-stop view, a live map, Renfe alerts and a detector for lines that silently stop running, plus a punctuality history Renfe doesn't publish (every train, every minute). Real-time push over WebSockets, Spanish/Catalan, 400+ SEO pages, €0/month. [Code →](https://github.com/RaulJimenezAyza/rodalies) | Cloudflare Workers, D1, Durable Objects, Pages, MapLibre, GTFS-RT |
+| **[Luz barata](https://luz.reloda.es)** | Spain's hour-by-hour electricity price shown like an A–G energy label, the cheapest hour for each appliance, taxes by region, push alerts when tomorrow's prices are out, and smart-meter CSV analysis in the browser. €0/month. [Code →](https://github.com/RaulJimenezAyza/luz) | Cloudflare Pages + Workers, KV, Web Push |
 | **[Interview Coach](https://github.com/RaulJimenezAyza/interview-coach)** | Practise interview answers out loud: ElevenLabs speech-to-text and text-to-speech, feedback on pace, fillers and pauses, and content feedback from a local LLM that can't invent facts about you. [Live demo →](https://rauljimenezayza.github.io/interview-coach/) | Python, FastAPI, React, TypeScript, ElevenLabs API, Ollama |
 | **[Reloda](https://reloda.es/en)** | SaaS that tracks returnable packaging from order to return for glass factories: warehouse in 2D/3D, QR scanning, route planning, offline-first delivery with signatures, client portal. Deployed for a glass manufacturer. [Case study →](https://github.com/RaulJimenezAyza/reloda-case-study) | React 19, TypeScript, Vite, Firebase, Three.js, Vitest, Playwright |
 | **[Momentum edge study](https://github.com/RaulJimenezAyza/momentum-edge-study)** | Does a viral crypto trading strategy have an edge? A full async trading system, measured honestly: walk-forward tests over 150 days and 14k trades, random-entry controls, and eleven "improvements" that all died out of sample. | Python, asyncio (aiohttp, websockets), NumPy, scikit-learn |
@@ -26,6 +29,7 @@ Full-stack engineer at **Service Next** (Barcelona area). I build production pro
 ## Stack
 
 - **Backend:** Python · FastAPI · asyncpg · Node.js · PostgreSQL · REST APIs · Docker
+- **Cloud / edge:** Cloudflare Workers · Pages · D1 · Durable Objects · KV · Firebase
 - **Frontend:** TypeScript · React · Next.js · Vue · Tailwind · Three.js
 - **AI:** LLM agents · LangChain · Langfuse · local models with Ollama
 - **Gamedev:** Unity · Unreal · Godot · C#
